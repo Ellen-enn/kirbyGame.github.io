@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: +2;
+}
+
+canvas{
+  margin: 0;
+  padding: 0;
+  display: block;
+  z-index: +1;
+}
+
+#refresh {
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 50px;
+  height: 25px;
+  width: 100px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  background-color:#008087;
+  color: white;
+  border-style: none;
+}
+
+#refresh:hover {
+  background-color: #F4A018;
+  cursor: pointer;
+}
+
+#full{
+  position: absolute;
+  margin-top: 245px;
+  margin-left: 50px;
+  height: 25px;
+  width: 140px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  background-color:#008087;
+  color: white;
+  border-style: none;
+}
+
+#full:hover {
+  background-color: #F4A018;
+  cursor: pointer;
+}
+
+/* #mybutton1 {
+  position: absolute;
+  margin-left: 1280px;
+  margin-top: 720px;
+  width:80px;
+  height:35px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  background-color:#008087;
+  color: white;
+  border-style: none;
+}
+
+#mybutton1:hover {
+  background-color: #F4A018;
+  cursor: pointer;
+} */
+/* 
+#mybutton2 {
+  position: absolute;
+  margin-left: 1380px;
+  margin-top: 720px;
+  width:80px;
+  height:35px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  background-color:#008087;
+  color: white;
+  border-style: none;
+}
+
+#mybutton2:hover {
+  background-color: #F4A018;
+  cursor: pointer;
+} */
